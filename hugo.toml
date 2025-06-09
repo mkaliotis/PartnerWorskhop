@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kentik Partner Workshop'
+
+[author]
+  email = 'manolis@kentik.com'
+  name = 'Manolis Kaliotis'
+
+[params]
+  disableLanguageSwitchingButton = true
+  themeVariant = ['auto', 'relearn-light', 'relearn-dark','learn', 'red', 'neon', 'relearn-bright', 'zen-light', 'zen-dark']
+  showVisitedLinks = true
+  alwaysopen = false
+  collapsibleMenu = true
+  hideAuthorName = true
+  hideAuthorEmail = true
+  hideAuthorDate = true
+  disableAnchorCopy = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
