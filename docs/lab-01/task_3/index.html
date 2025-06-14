@@ -5,37 +5,37 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.139.2">
     <meta name="generator" content="Relearn 7.6.1+4407b4364ab6f7477f7671fbd20c0494bade40ee">
-    <meta name="description" content="Perform required steps to ingest netflow from devices">
+    <meta name="description" content="Perform required steps to ingest flow from devices">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Task 1.3 - Enabling Flow :: Kentik Partner Workshop">
-    <meta name="twitter:description" content="Perform required steps to ingest netflow from devices">
+    <meta name="twitter:description" content="Perform required steps to ingest flow from devices">
     <meta property="og:url" content="https://mkaliotis.github.io/PartnerWorskhop/lab-01/task_3/index.html">
     <meta property="og:site_name" content="Kentik Partner Workshop">
     <meta property="og:title" content="Task 1.3 - Enabling Flow :: Kentik Partner Workshop">
-    <meta property="og:description" content="Perform required steps to ingest netflow from devices">
+    <meta property="og:description" content="Perform required steps to ingest flow from devices">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Lab.1 - Onboarding">
     <meta property="article:published_time" content="2025-06-04T23:57:29+03:00">
     <meta property="article:modified_time" content="2025-06-04T23:57:29+03:00">
     <meta itemprop="name" content="Task 1.3 - Enabling Flow :: Kentik Partner Workshop">
-    <meta itemprop="description" content="Perform required steps to ingest netflow from devices">
+    <meta itemprop="description" content="Perform required steps to ingest flow from devices">
     <meta itemprop="datePublished" content="2025-06-04T23:57:29+03:00">
     <meta itemprop="dateModified" content="2025-06-04T23:57:29+03:00">
-    <meta itemprop="wordCount" content="15">
+    <meta itemprop="wordCount" content="59">
     <title>Task 1.3 - Enabling Flow :: Kentik Partner Workshop</title>
-    <link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749934216" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749934216" rel="stylesheet"></noscript>
-    <link href="/PartnerWorskhop/css/perfect-scrollbar/perfect-scrollbar.min.css?1749934216" rel="stylesheet">
-    <link href="/PartnerWorskhop/css/theme.min.css?1749934216" rel="stylesheet">
-    <link href="/PartnerWorskhop/css/format-html.min.css?1749934216" rel="stylesheet" id="R-format-style">
-    <link href="/PartnerWorskhop/css/auto-complete/auto-complete.min.css?1749934216" rel="stylesheet">
-    <script src="/PartnerWorskhop/js/auto-complete/auto-complete.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.stemmer.support.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.multi.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.en.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/search.min.js?1749934216" defer></script>
+    <link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749944175" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749944175" rel="stylesheet"></noscript>
+    <link href="/PartnerWorskhop/css/perfect-scrollbar/perfect-scrollbar.min.css?1749944175" rel="stylesheet">
+    <link href="/PartnerWorskhop/css/theme.min.css?1749944175" rel="stylesheet">
+    <link href="/PartnerWorskhop/css/format-html.min.css?1749944175" rel="stylesheet" id="R-format-style">
+    <link href="/PartnerWorskhop/css/auto-complete/auto-complete.min.css?1749944175" rel="stylesheet">
+    <script src="/PartnerWorskhop/js/auto-complete/auto-complete.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.stemmer.support.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.multi.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.en.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/search.min.js?1749944175" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -45,7 +45,7 @@
       window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='https:\/\/mkaliotis.github.io\/PartnerWorskhop';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/PartnerWorskhop/searchindex.en.js?1749934216";
+      window.relearn.index_js_url="/PartnerWorskhop/searchindex.en.js?1749944175";
       window.relearn.disableAnchorCopy=true;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -108,9 +108,9 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#step1---title">Step.1 - Title</a></li>
-        <li><a href="#step2---title">Step.2 - Title</a></li>
-        <li><a href="#step3---title">Step.3 - Title</a></li>
+        <li><a href="#step1---device-configuration-for-flow">Step.1 - Device Configuration for Flow</a></li>
+        <li><a href="#step2---deploy-kbgp">Step.2 - Deploy kBGP</a></li>
+        <li><a href="#step3---enable-flow">Step.3 - Enable Flow</a></li>
         <li><a href="#step4---title">Step.4 - Title</a></li>
         <li><a href="#step5---title">Step.5 - Title</a></li>
       </ul>
@@ -151,9 +151,28 @@
 
 <h1 id="task-13---enabling-flow">Task 1.3 - Enabling Flow</h1>
 
-<h3 id="step1---title">Step.1 - Title</h3>
-<h3 id="step2---title">Step.2 - Title</h3>
-<h3 id="step3---title">Step.3 - Title</h3>
+<ul>
+<li>
+<p>Enable Flow cap OR Deploy Kproxy</p>
+</li>
+<li>
+<p>Deploy KBGP / Portal BGP settings</p>
+</li>
+</ul>
+<h3 id="step1---device-configuration-for-flow">Step.1 - Device Configuration for Flow</h3>
+<ul>
+<li>spine/leave: sflow tunnel/decode</li>
+<li>Sending IP / Sampling rate / Flow plan / Device type /</li>
+<li>SNMP for flow enrichment</li>
+</ul>
+<h3 id="step2---deploy-kbgp">Step.2 - Deploy kBGP</h3>
+<ul>
+<li>device config</li>
+</ul>
+<h3 id="step3---enable-flow">Step.3 - Enable Flow</h3>
+<ul>
+<li>Deploy kproxy OR add Flow cap</li>
+</ul>
 <h3 id="step4---title">Step.4 - Title</h3>
 <h3 id="step5---title">Step.5 - Title</h3>
 
@@ -274,8 +293,8 @@
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/PartnerWorskhop/js/clipboard/clipboard.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/perfect-scrollbar/perfect-scrollbar.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/theme.min.js?1749934216" defer></script>
+    <script src="/PartnerWorskhop/js/clipboard/clipboard.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/perfect-scrollbar/perfect-scrollbar.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/theme.min.js?1749944175" defer></script>
   </body>
 </html>

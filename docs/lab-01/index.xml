@@ -3,7 +3,7 @@
   <channel>
     <title>Lab.1 - Onboarding :: Kentik Partner Workshop</title>
     <link>https://mkaliotis.github.io/PartnerWorskhop/lab-01/index.html</link>
-    <description>Theory and LAB description&#xA;Task 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices via Kentik NMS&#xA;Task 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case&#xA;Task 1.3 - Enabling FlowPerform required steps to ingest netflow from devices&#xA;Task 1.4 - Portal VerificationVerify visibility in the portal</description>
+    <description>Data Collection Flow Information Basics Flow Directionality Data Enrichment Process Kentik Data Engine Lab.1 Tasks Task 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices into Kentik NMS&#xA;Task 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case&#xA;Task 1.3 - Enabling FlowPerform required steps to ingest flow from devices&#xA;Task 1.4 - Portal VerificationVerify visibility in the portal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jun 2025 23:57:31 +0300</lastBuildDate>
@@ -13,7 +13,7 @@
       <link>https://mkaliotis.github.io/PartnerWorskhop/lab-01/task_1/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:18 +0300</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-01/task_1/index.html</guid>
-      <description>Deploy Universal Agent and Onboard Devices via Kentik NMS</description>
+      <description>Deploy Universal Agent and Onboard Devices into Kentik NMS</description>
     </item>
     <item>
       <title>Task 1.2 - Portal Configuration</title>
@@ -27,7 +27,7 @@
       <link>https://mkaliotis.github.io/PartnerWorskhop/lab-01/task_3/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:29 +0300</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-01/task_3/index.html</guid>
-      <description>Perform required steps to ingest netflow from devices</description>
+      <description>Perform required steps to ingest flow from devices</description>
     </item>
     <item>
       <title>Task 1.4 - Portal Verification</title>

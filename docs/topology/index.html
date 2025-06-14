@@ -6,36 +6,40 @@
     <meta name="generator" content="Hugo 0.139.2">
     <meta name="generator" content="Relearn 7.6.1+4407b4364ab6f7477f7671fbd20c0494bade40ee">
     <meta name="description" content="This section will familiarize you with the network topology that we are going to be using throughout this workshop.
-While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.">
+While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.
+DC Devices Hostname Mgmt IP Lo0 RID Lo1 VTEP ASN P2P Subnet Credentials spine1 172.20.20.101 10.1.250.1 NA 65500 10.1.1/24 admin/admin spine2 172.20.20.102 10.1.250.2 NA 65500 10.1.2/24 —//— leaf1 172.20.20.11 10.1.250.11 10.1.251.11 65501 NA —//— leaf2 172.20.20.12 10.1.250.12 10.1.251.12 65502 NA —//— bleaf 172.20.20.13 10.1.250.13 10.1.251.13 65503 NA —//— wan 172.20.20.50 10.11.250.1 NA 64512 10.11/16 —//— DC Hosts Hostname Mgmt IP VLAN Eth0 IP Credentials fe_host1 172.20.20.15 110 172.16.110.11 user/multit00l be_host1 172.20.20.16 111 172.16.111.11 –//– fe_host2 172.20.20.17 110 172.16.110.12 –//– be_host2 172.20.20.18 111 172.16.111.12 –//– syn_leaf1 172.20.20.21 113 172.16.112.11 admin/admin syn_leaf2 172.20.20.22 113 172.16.112.12 –//– syn_leaf3 172.20.20.23 113 172.16.112.13 –//– Externals Hostname Mgmt IP Role Eth0 IP Credentials custa_host1 172.20.20.151 Customer 192.168.120.11 user/multit00l asn600_host1 172.20.20.161 Transit 192.168.160.11 —//— asn700_host1 172.20.20.171 NA 192.168.170.11 —//— asn800_host1 172.20.20.181 PNI 192.168.180.11 —//— Applications Port(s) From To https/443 Internal External https/443 External Internal https/443 External External tcp/5800-5803 External Frontend tcp/7910 CustA External postgresql/5432 Frontend Backend tcp/7910 Frontend Frontend tcp/8213 Backend Backend tcp/4443 Backend Externals">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Topology :: Kentik Partner Workshop">
     <meta name="twitter:description" content="This section will familiarize you with the network topology that we are going to be using throughout this workshop.
-While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.">
+While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.
+DC Devices Hostname Mgmt IP Lo0 RID Lo1 VTEP ASN P2P Subnet Credentials spine1 172.20.20.101 10.1.250.1 NA 65500 10.1.1/24 admin/admin spine2 172.20.20.102 10.1.250.2 NA 65500 10.1.2/24 —//— leaf1 172.20.20.11 10.1.250.11 10.1.251.11 65501 NA —//— leaf2 172.20.20.12 10.1.250.12 10.1.251.12 65502 NA —//— bleaf 172.20.20.13 10.1.250.13 10.1.251.13 65503 NA —//— wan 172.20.20.50 10.11.250.1 NA 64512 10.11/16 —//— DC Hosts Hostname Mgmt IP VLAN Eth0 IP Credentials fe_host1 172.20.20.15 110 172.16.110.11 user/multit00l be_host1 172.20.20.16 111 172.16.111.11 –//– fe_host2 172.20.20.17 110 172.16.110.12 –//– be_host2 172.20.20.18 111 172.16.111.12 –//– syn_leaf1 172.20.20.21 113 172.16.112.11 admin/admin syn_leaf2 172.20.20.22 113 172.16.112.12 –//– syn_leaf3 172.20.20.23 113 172.16.112.13 –//– Externals Hostname Mgmt IP Role Eth0 IP Credentials custa_host1 172.20.20.151 Customer 192.168.120.11 user/multit00l asn600_host1 172.20.20.161 Transit 192.168.160.11 —//— asn700_host1 172.20.20.171 NA 192.168.170.11 —//— asn800_host1 172.20.20.181 PNI 192.168.180.11 —//— Applications Port(s) From To https/443 Internal External https/443 External Internal https/443 External External tcp/5800-5803 External Frontend tcp/7910 CustA External postgresql/5432 Frontend Backend tcp/7910 Frontend Frontend tcp/8213 Backend Backend tcp/4443 Backend Externals">
     <meta property="og:url" content="https://mkaliotis.github.io/PartnerWorskhop/topology/index.html">
     <meta property="og:site_name" content="Kentik Partner Workshop">
     <meta property="og:title" content="Topology :: Kentik Partner Workshop">
     <meta property="og:description" content="This section will familiarize you with the network topology that we are going to be using throughout this workshop.
-While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.">
+While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.
+DC Devices Hostname Mgmt IP Lo0 RID Lo1 VTEP ASN P2P Subnet Credentials spine1 172.20.20.101 10.1.250.1 NA 65500 10.1.1/24 admin/admin spine2 172.20.20.102 10.1.250.2 NA 65500 10.1.2/24 —//— leaf1 172.20.20.11 10.1.250.11 10.1.251.11 65501 NA —//— leaf2 172.20.20.12 10.1.250.12 10.1.251.12 65502 NA —//— bleaf 172.20.20.13 10.1.250.13 10.1.251.13 65503 NA —//— wan 172.20.20.50 10.11.250.1 NA 64512 10.11/16 —//— DC Hosts Hostname Mgmt IP VLAN Eth0 IP Credentials fe_host1 172.20.20.15 110 172.16.110.11 user/multit00l be_host1 172.20.20.16 111 172.16.111.11 –//– fe_host2 172.20.20.17 110 172.16.110.12 –//– be_host2 172.20.20.18 111 172.16.111.12 –//– syn_leaf1 172.20.20.21 113 172.16.112.11 admin/admin syn_leaf2 172.20.20.22 113 172.16.112.12 –//– syn_leaf3 172.20.20.23 113 172.16.112.13 –//– Externals Hostname Mgmt IP Role Eth0 IP Credentials custa_host1 172.20.20.151 Customer 192.168.120.11 user/multit00l asn600_host1 172.20.20.161 Transit 192.168.160.11 —//— asn700_host1 172.20.20.171 NA 192.168.170.11 —//— asn800_host1 172.20.20.181 PNI 192.168.180.11 —//— Applications Port(s) From To https/443 Internal External https/443 External Internal https/443 External External tcp/5800-5803 External Frontend tcp/7910 CustA External postgresql/5432 Frontend Backend tcp/7910 Frontend Frontend tcp/8213 Backend Backend tcp/4443 Backend Externals">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Topology :: Kentik Partner Workshop">
     <meta itemprop="description" content="This section will familiarize you with the network topology that we are going to be using throughout this workshop.
-While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.">
-    <meta itemprop="wordCount" content="47">
+While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.
+DC Devices Hostname Mgmt IP Lo0 RID Lo1 VTEP ASN P2P Subnet Credentials spine1 172.20.20.101 10.1.250.1 NA 65500 10.1.1/24 admin/admin spine2 172.20.20.102 10.1.250.2 NA 65500 10.1.2/24 —//— leaf1 172.20.20.11 10.1.250.11 10.1.251.11 65501 NA —//— leaf2 172.20.20.12 10.1.250.12 10.1.251.12 65502 NA —//— bleaf 172.20.20.13 10.1.250.13 10.1.251.13 65503 NA —//— wan 172.20.20.50 10.11.250.1 NA 64512 10.11/16 —//— DC Hosts Hostname Mgmt IP VLAN Eth0 IP Credentials fe_host1 172.20.20.15 110 172.16.110.11 user/multit00l be_host1 172.20.20.16 111 172.16.111.11 –//– fe_host2 172.20.20.17 110 172.16.110.12 –//– be_host2 172.20.20.18 111 172.16.111.12 –//– syn_leaf1 172.20.20.21 113 172.16.112.11 admin/admin syn_leaf2 172.20.20.22 113 172.16.112.12 –//– syn_leaf3 172.20.20.23 113 172.16.112.13 –//– Externals Hostname Mgmt IP Role Eth0 IP Credentials custa_host1 172.20.20.151 Customer 192.168.120.11 user/multit00l asn600_host1 172.20.20.161 Transit 192.168.160.11 —//— asn700_host1 172.20.20.171 NA 192.168.170.11 —//— asn800_host1 172.20.20.181 PNI 192.168.180.11 —//— Applications Port(s) From To https/443 Internal External https/443 External Internal https/443 External External tcp/5800-5803 External Frontend tcp/7910 CustA External postgresql/5432 Frontend Backend tcp/7910 Frontend Frontend tcp/8213 Backend Backend tcp/4443 Backend Externals">
+    <meta itemprop="wordCount" content="205">
     <title>Topology :: Kentik Partner Workshop</title>
     <link href="/PartnerWorskhop/topology/index.xml" rel="alternate" type="application/rss+xml" title="Topology :: Kentik Partner Workshop">
-    <link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749934216" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749934216" rel="stylesheet"></noscript>
-    <link href="/PartnerWorskhop/css/perfect-scrollbar/perfect-scrollbar.min.css?1749934216" rel="stylesheet">
-    <link href="/PartnerWorskhop/css/theme.min.css?1749934216" rel="stylesheet">
-    <link href="/PartnerWorskhop/css/format-html.min.css?1749934216" rel="stylesheet" id="R-format-style">
-    <link href="/PartnerWorskhop/css/auto-complete/auto-complete.min.css?1749934216" rel="stylesheet">
-    <script src="/PartnerWorskhop/js/auto-complete/auto-complete.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.stemmer.support.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.multi.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/lunr/lunr.en.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/search.min.js?1749934216" defer></script>
+    <link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749944175" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/PartnerWorskhop/fonts/fontawesome/css/fontawesome-all.min.css?1749944175" rel="stylesheet"></noscript>
+    <link href="/PartnerWorskhop/css/perfect-scrollbar/perfect-scrollbar.min.css?1749944175" rel="stylesheet">
+    <link href="/PartnerWorskhop/css/theme.min.css?1749944175" rel="stylesheet">
+    <link href="/PartnerWorskhop/css/format-html.min.css?1749944175" rel="stylesheet" id="R-format-style">
+    <link href="/PartnerWorskhop/css/auto-complete/auto-complete.min.css?1749944175" rel="stylesheet">
+    <script src="/PartnerWorskhop/js/auto-complete/auto-complete.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.stemmer.support.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.multi.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/lunr/lunr.en.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/search.min.js?1749944175" defer></script>
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -45,7 +49,7 @@ While we go through the topology, please, access the LAB link and start LAB.1 th
       window.relearn.relBaseUri='..\/..';
       window.relearn.absBaseUri='https:\/\/mkaliotis.github.io\/PartnerWorskhop';
       window.relearn.contentLangs=['en'];
-      window.relearn.index_js_url="/PartnerWorskhop/searchindex.en.js?1749934216";
+      window.relearn.index_js_url="/PartnerWorskhop/searchindex.en.js?1749944175";
       window.relearn.disableAnchorCopy=true;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=false;
@@ -103,7 +107,19 @@ While we go through the topology, please, access the LAB link and start LAB.1 th
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#dc-devices">DC Devices</a></li>
+        <li><a href="#dc-hosts">DC Hosts</a></li>
+        <li><a href="#externals">Externals</a></li>
+        <li><a href="#applications">Applications</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
@@ -140,8 +156,244 @@ While we go through the topology, please, access the LAB link and start LAB.1 th
 <hr>
 <p>This section will familiarize you with the network topology that we are going to be using throughout this workshop.</p>
 <p>While we go through the topology, please, access the <a href="/PartnerWorskhop/topology/index.html">LAB link</a> and start LAB.1 that will take about 5 minutes to load and set things up for us.</p>
-<p><a href="#R-image-087eaa2ab6e60d76d2632feaedd8dde0" class="lightbox-link"><img alt="Topology" class="lazy lightbox figure-image" loading="lazy" src="/PartnerWorskhop/topology/topo.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-087eaa2ab6e60d76d2632feaedd8dde0"><img alt="Topology" class="lazy lightbox lightbox-image" loading="lazy" src="/PartnerWorskhop/topology/topo.svg"></a></p>
+<p><a href="#R-image-474d186b028ddbdcc59111ad08f1b085" class="lightbox-link"><img alt="Topology" class="lazy lightbox figure-image" loading="lazy" src="/PartnerWorskhop/topology/topo.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-474d186b028ddbdcc59111ad08f1b085"><img alt="Topology" class="lazy lightbox lightbox-image" loading="lazy" src="/PartnerWorskhop/topology/topo.svg"></a></p>
+<hr>
+<h3 id="dc-devices">DC Devices</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Hostname</th>
+          <th>Mgmt IP</th>
+          <th>Lo0 RID</th>
+          <th>Lo1 VTEP</th>
+          <th>ASN</th>
+          <th>P2P Subnet</th>
+          <th>Credentials</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>spine1</td>
+          <td>172.20.20.101</td>
+          <td>10.1.250.1</td>
+          <td>NA</td>
+          <td>65500</td>
+          <td>10.1.1/24</td>
+          <td>admin/admin</td>
+      </tr>
+      <tr>
+          <td>spine2</td>
+          <td>172.20.20.102</td>
+          <td>10.1.250.2</td>
+          <td>NA</td>
+          <td>65500</td>
+          <td>10.1.2/24</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>leaf1</td>
+          <td>172.20.20.11</td>
+          <td>10.1.250.11</td>
+          <td>10.1.251.11</td>
+          <td>65501</td>
+          <td>NA</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>leaf2</td>
+          <td>172.20.20.12</td>
+          <td>10.1.250.12</td>
+          <td>10.1.251.12</td>
+          <td>65502</td>
+          <td>NA</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>bleaf</td>
+          <td>172.20.20.13</td>
+          <td>10.1.250.13</td>
+          <td>10.1.251.13</td>
+          <td>65503</td>
+          <td>NA</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>wan</td>
+          <td>172.20.20.50</td>
+          <td>10.11.250.1</td>
+          <td>NA</td>
+          <td>64512</td>
+          <td>10.11/16</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="dc-hosts">DC Hosts</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Hostname</th>
+          <th>Mgmt IP</th>
+          <th>VLAN</th>
+          <th>Eth0 IP</th>
+          <th>Credentials</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>fe_host1</td>
+          <td>172.20.20.15</td>
+          <td>110</td>
+          <td>172.16.110.11</td>
+          <td>user/multit00l</td>
+      </tr>
+      <tr>
+          <td>be_host1</td>
+          <td>172.20.20.16</td>
+          <td>111</td>
+          <td>172.16.111.11</td>
+          <td>&ndash;//&ndash;</td>
+      </tr>
+      <tr>
+          <td>fe_host2</td>
+          <td>172.20.20.17</td>
+          <td>110</td>
+          <td>172.16.110.12</td>
+          <td>&ndash;//&ndash;</td>
+      </tr>
+      <tr>
+          <td>be_host2</td>
+          <td>172.20.20.18</td>
+          <td>111</td>
+          <td>172.16.111.12</td>
+          <td>&ndash;//&ndash;</td>
+      </tr>
+      <tr>
+          <td>syn_leaf1</td>
+          <td>172.20.20.21</td>
+          <td>113</td>
+          <td>172.16.112.11</td>
+          <td>admin/admin</td>
+      </tr>
+      <tr>
+          <td>syn_leaf2</td>
+          <td>172.20.20.22</td>
+          <td>113</td>
+          <td>172.16.112.12</td>
+          <td>&ndash;//&ndash;</td>
+      </tr>
+      <tr>
+          <td>syn_leaf3</td>
+          <td>172.20.20.23</td>
+          <td>113</td>
+          <td>172.16.112.13</td>
+          <td>&ndash;//&ndash;</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="externals">Externals</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Hostname</th>
+          <th>Mgmt IP</th>
+          <th>Role</th>
+          <th>Eth0 IP</th>
+          <th>Credentials</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>custa_host1</td>
+          <td>172.20.20.151</td>
+          <td>Customer</td>
+          <td>192.168.120.11</td>
+          <td>user/multit00l</td>
+      </tr>
+      <tr>
+          <td>asn600_host1</td>
+          <td>172.20.20.161</td>
+          <td>Transit</td>
+          <td>192.168.160.11</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>asn700_host1</td>
+          <td>172.20.20.171</td>
+          <td>NA</td>
+          <td>192.168.170.11</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+      <tr>
+          <td>asn800_host1</td>
+          <td>172.20.20.181</td>
+          <td>PNI</td>
+          <td>192.168.180.11</td>
+          <td>&mdash;//&mdash;</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h3 id="applications">Applications</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Port(s)</th>
+          <th>From</th>
+          <th>To</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>https/443</td>
+          <td>Internal</td>
+          <td>External</td>
+      </tr>
+      <tr>
+          <td>https/443</td>
+          <td>External</td>
+          <td>Internal</td>
+      </tr>
+      <tr>
+          <td>https/443</td>
+          <td>External</td>
+          <td>External</td>
+      </tr>
+      <tr>
+          <td>tcp/5800-5803</td>
+          <td>External</td>
+          <td>Frontend</td>
+      </tr>
+      <tr>
+          <td>tcp/7910</td>
+          <td>CustA</td>
+          <td>External</td>
+      </tr>
+      <tr>
+          <td>postgresql/5432</td>
+          <td>Frontend</td>
+          <td>Backend</td>
+      </tr>
+      <tr>
+          <td>tcp/7910</td>
+          <td>Frontend</td>
+          <td>Frontend</td>
+      </tr>
+      <tr>
+          <td>tcp/8213</td>
+          <td>Backend</td>
+          <td>Backend</td>
+      </tr>
+      <tr>
+          <td>tcp/4443</td>
+          <td>Backend</td>
+          <td>Externals</td>
+      </tr>
+  </tbody>
+</table>
 
   <footer class="footline">
   </footer>
@@ -260,8 +512,8 @@ While we go through the topology, please, access the LAB link and start LAB.1 th
 <div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
       </div>
     </aside>
-    <script src="/PartnerWorskhop/js/clipboard/clipboard.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/perfect-scrollbar/perfect-scrollbar.min.js?1749934216" defer></script>
-    <script src="/PartnerWorskhop/js/theme.min.js?1749934216" defer></script>
+    <script src="/PartnerWorskhop/js/clipboard/clipboard.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/perfect-scrollbar/perfect-scrollbar.min.js?1749944175" defer></script>
+    <script src="/PartnerWorskhop/js/theme.min.js?1749944175" defer></script>
   </body>
 </html>

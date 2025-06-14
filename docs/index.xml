@@ -20,28 +20,28 @@
       <link>https://mkaliotis.github.io/PartnerWorskhop/topology/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/topology/index.html</guid>
-      <description>This section will familiarize you with the network topology that we are going to be using throughout this workshop.&#xA;While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.</description>
+      <description>This section will familiarize you with the network topology that we are going to be using throughout this workshop.&#xA;While we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.&#xA;DC Devices Hostname Mgmt IP Lo0 RID Lo1 VTEP ASN P2P Subnet Credentials spine1 172.20.20.101 10.1.250.1 NA 65500 10.1.1/24 admin/admin spine2 172.20.20.102 10.1.250.2 NA 65500 10.1.2/24 —//— leaf1 172.20.20.11 10.1.250.11 10.1.251.11 65501 NA —//— leaf2 172.20.20.12 10.1.250.12 10.1.251.12 65502 NA —//— bleaf 172.20.20.13 10.1.250.13 10.1.251.13 65503 NA —//— wan 172.20.20.50 10.11.250.1 NA 64512 10.11/16 —//— DC Hosts Hostname Mgmt IP VLAN Eth0 IP Credentials fe_host1 172.20.20.15 110 172.16.110.11 user/multit00l be_host1 172.20.20.16 111 172.16.111.11 –//– fe_host2 172.20.20.17 110 172.16.110.12 –//– be_host2 172.20.20.18 111 172.16.111.12 –//– syn_leaf1 172.20.20.21 113 172.16.112.11 admin/admin syn_leaf2 172.20.20.22 113 172.16.112.12 –//– syn_leaf3 172.20.20.23 113 172.16.112.13 –//– Externals Hostname Mgmt IP Role Eth0 IP Credentials custa_host1 172.20.20.151 Customer 192.168.120.11 user/multit00l asn600_host1 172.20.20.161 Transit 192.168.160.11 —//— asn700_host1 172.20.20.171 NA 192.168.170.11 —//— asn800_host1 172.20.20.181 PNI 192.168.180.11 —//— Applications Port(s) From To https/443 Internal External https/443 External Internal https/443 External External tcp/5800-5803 External Frontend tcp/7910 CustA External postgresql/5432 Frontend Backend tcp/7910 Frontend Frontend tcp/8213 Backend Backend tcp/4443 Backend Externals</description>
     </item>
     <item>
       <title>Lab.1 - Onboarding</title>
       <link>https://mkaliotis.github.io/PartnerWorskhop/lab-01/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-01/index.html</guid>
-      <description>Theory and LAB description&#xA;Task 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices via Kentik NMS&#xA;Task 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case&#xA;Task 1.3 - Enabling FlowPerform required steps to ingest netflow from devices&#xA;Task 1.4 - Portal VerificationVerify visibility in the portal</description>
+      <description>Data Collection Flow Information Basics Flow Directionality Data Enrichment Process Kentik Data Engine Lab.1 Tasks Task 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices into Kentik NMS&#xA;Task 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case&#xA;Task 1.3 - Enabling FlowPerform required steps to ingest flow from devices&#xA;Task 1.4 - Portal VerificationVerify visibility in the portal</description>
     </item>
     <item>
       <title>Lab.2 - Alerting </title>
       <link>https://mkaliotis.github.io/PartnerWorskhop/lab-02/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-02/index.html</guid>
-      <description>Theory and LAB description&#xA;Task 2.1 - NMS AlertingShort Description&#xA;Task 2.2 - Traffic AlertingShort Description&#xA;Task 2.3 - DDoS AlertingShort Description&#xA;Task 2.4 - TitleShort Description</description>
+      <description>Brief Overview of Alerting Engine&#xA;Task 2.1 - NMS AlertingShort Description&#xA;Task 2.2 - Traffic AlertingShort Description&#xA;Task 2.3 - DDoS AlertingShort Description&#xA;Task 2.4 - TitleShort Description</description>
     </item>
     <item>
       <title>Lab.3 - Synthetics</title>
       <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
       <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-03/index.html</guid>
-      <description>Theory and LAB description&#xA;Task 3.1 - Deploy AgentsShort Description&#xA;Task 3.2 - Agent-to-Agent TestsShort Description&#xA;Task 3.3 - TitleShort Description&#xA;Task 3.4 - TitleShort Description</description>
+      <description>Brief Overview of Synthetics&#xA;Task 3.1 - Deploy AgentsShort Description&#xA;Task 3.2 - Agent-to-Agent TestsShort Description&#xA;Task 3.3 - TitleShort Description&#xA;Task 3.4 - TitleShort Description</description>
     </item>
     <item>
       <title>Lab.4 - Custom Metrics</title>
