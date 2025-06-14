@@ -7,12 +7,19 @@ weight = 2
 +++
 
 
-### Step.1 - Title
+### Step.1 - Network Classification
 
-### Step.2 - Title
+### Step.2 - Interface Classification
 
-### Step.3 - Title
+### Step.3 - Device Labels
+- Assign device Labels (Bulk)
 
-### Step.4 - Title
+### Step.4 - Configure a Site
+- Topology
+- Assign Device Roles (Bulk)
+
+### Step.5 - Custom Applications
+
+### Step.6 - AS Groups
 
 ### Step.5 - Title

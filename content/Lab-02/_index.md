@@ -3,6 +3,10 @@ title = "Lab.2 - Alerting "
 type = "home"
 weight = 4
 +++
-_Theory and LAB description_
+---
 
+Brief Overview of Alerting Engine
+
+
+---
 {{% children sort="title" description="true" %}}
