@@ -73,8 +73,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
-    "content": "This section will familiarize you with the network topology that we are going to be using throughout this workshop.\nWhile go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.",
-    "description": "This section will familiarize you with the network topology that we are going to be using throughout this workshop.\nWhile go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.",
+    "content": "This section will familiarize you with the network topology that we are going to be using throughout this workshop.\nWhile we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.",
+    "description": "This section will familiarize you with the network topology that we are going to be using throughout this workshop.\nWhile we go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.",
     "tags": [],
     "title": "Topology",
     "uri": "/PartnerWorskhop/topology/index.html"
