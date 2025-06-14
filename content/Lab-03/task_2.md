@@ -1,7 +1,7 @@
 +++
 date = '2025-06-04T23:57:23+03:00'
 draft = false
-title = 'Task 3.2 - Title'
+title = 'Task 3.2 - Agent-to-Agent Tests'
 description = 'Short Description'
 weight = 2
 +++

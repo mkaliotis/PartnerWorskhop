@@ -1,7 +1,7 @@
 +++
 date = '2025-06-04T23:57:29+03:00'
 draft = false
-title = 'Task 2.3 - Title'
+title = 'Task 2.3 - DDoS Alerting'
 description = 'Short Description'
 weight = 3
 +++

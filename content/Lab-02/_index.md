@@ -1,7 +1,8 @@
 +++
 title = "Lab.2 - Alerting "
 type = "home"
-weight = 3
+weight = 4
 +++
+_Theory and LAB description_
 
 {{% children sort="title" description="true" %}}

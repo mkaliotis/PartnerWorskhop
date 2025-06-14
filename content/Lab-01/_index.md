@@ -1,10 +1,10 @@
 +++
 title = "Lab.1 - Onboarding"
 type = "home"
-weight = 2
+weight = 3
 +++
 ---
-Welcome to Lab.1 !!!
+_Theory and LAB description_
 
 
 {{% children sort="title" description="true" %}}

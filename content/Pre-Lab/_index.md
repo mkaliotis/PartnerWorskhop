@@ -1,5 +1,5 @@
 +++
-title = "Pre-Lab Tasks"
+title = "Pre-Workshop Tasks"
 linkTitle = 'Lab Prereqs'
 type = "home"
 weight = 1
