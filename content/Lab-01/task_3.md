@@ -20,6 +20,7 @@ weight = 3
 
 ### Step.3 - Enable Flow
 - Deploy kproxy OR add Flow cap
+- See if we can use Hostname dimension vis kproxy/kflow
 
 ### Step.4 - Title
 

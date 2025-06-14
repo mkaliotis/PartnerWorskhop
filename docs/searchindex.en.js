@@ -9,7 +9,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.2 - Alerting",
-    "content": "Step.1 - Title Step.2 - Title Step.3 - Title Step.4 - Title Step.5 - Title",
+    "content": "Add email notification channel Step.1 - Title Config Int Down policy (Conditional Admin Up and Oper transitions to Down or LowerDown) Step.2 - Title Config BGP Down transition from Estab to Idle or Connect Step.3 - Title Detect Intf came up (Reserved intf) Step.4 - Title Event (SYSLOG) Step.5 - Title clab impairements to cause issues and verify alerts",
     "description": "Short Description",
     "tags": [],
     "title": "Task 2.1 - NMS Alerting",
@@ -89,7 +89,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.1 - Onboarding",
-    "content": "Enable Flow cap OR Deploy Kproxy\nDeploy KBGP / Portal BGP settings\nStep.1 - Device Configuration for Flow spine/leave: sflow tunnel/decode Sending IP / Sampling rate / Flow plan / Device type / SNMP for flow enrichment Step.2 - Deploy kBGP device config Step.3 - Enable Flow Deploy kproxy OR add Flow cap Step.4 - Title Step.5 - Title",
+    "content": "Enable Flow cap OR Deploy Kproxy\nDeploy KBGP / Portal BGP settings\nStep.1 - Device Configuration for Flow spine/leave: sflow tunnel/decode Sending IP / Sampling rate / Flow plan / Device type / SNMP for flow enrichment Step.2 - Deploy kBGP device config Step.3 - Enable Flow Deploy kproxy OR add Flow cap See if we can use Hostname dimension vis kproxy/kflow Step.4 - Title Step.5 - Title",
     "description": "Perform required steps to ingest flow from devices",
     "tags": [],
     "title": "Task 1.3 - Enabling Flow",
