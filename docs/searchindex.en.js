@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "Deploy Universal Agent and Onboard Devices via Kentik NMS",
     "tags": [],
     "title": "Task 1.1 - Device Discovery",
-    "uri": "/lab-01/task_1/index.html"
+    "uri": "/PartnerWorskhop/lab-01/task_1/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.2 - Alerting",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 2.1 - NMS Alerting",
-    "uri": "/lab-02/task_1/index.html"
+    "uri": "/PartnerWorskhop/lab-02/task_1/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.3 - Synthetics",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 3.1 - Deploy Agents",
-    "uri": "/lab-03/task_1/index.html"
+    "uri": "/PartnerWorskhop/lab-03/task_1/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.4 - Custom Metrics",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 4.1 - Title",
-    "uri": "/lab-04/task_1/index.html"
+    "uri": "/PartnerWorskhop/lab-04/task_1/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "Prior to this workshop, you should have received an email with instructions on how to set up a free trial Kentik account. This is a prerequisite step in order to be able to run the Labs during the workshop.\nIf you already have registered for an account you can follow the tasks for validation.\nTask 0.1 - Register for a Free Trial Account Navigate to kentik.com/get-started and fill in your details in the form to create your free trial Kentik account.",
     "tags": [],
     "title": "Pre-Workshop Tasks",
-    "uri": "/pre-lab/index.html"
+    "uri": "/PartnerWorskhop/pre-lab/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.1 - Onboarding",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "Configure relevant Kentik Resources to support our use case",
     "tags": [],
     "title": "Task 1.2 - Portal Configuration",
-    "uri": "/lab-01/task_2/index.html"
+    "uri": "/PartnerWorskhop/lab-01/task_2/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.2 - Alerting",
@@ -53,7 +53,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 2.2 - Traffic Alerting",
-    "uri": "/lab-02/task_2/index.html"
+    "uri": "/PartnerWorskhop/lab-02/task_2/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.3 - Synthetics",
@@ -61,7 +61,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 3.2 - Agent-to-Agent Tests",
-    "uri": "/lab-03/task_2/index.html"
+    "uri": "/PartnerWorskhop/lab-03/task_2/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.4 - Custom Metrics",
@@ -69,7 +69,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 4.2 - Title",
-    "uri": "/lab-04/task_2/index.html"
+    "uri": "/PartnerWorskhop/lab-04/task_2/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -77,7 +77,7 @@ var relearn_searchindex = [
     "description": "This section will familiarize you with the network topology that we are going to be using throughout this workshop.\nWhile go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.",
     "tags": [],
     "title": "Topology",
-    "uri": "/topology/index.html"
+    "uri": "/PartnerWorskhop/topology/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -85,7 +85,7 @@ var relearn_searchindex = [
     "description": "Theory and LAB description\nTask 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices via Kentik NMS\nTask 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case\nTask 1.3 - Enabling FlowPerform required steps to ingest netflow from devices\nTask 1.4 - Portal VerificationVerify visibility in the portal",
     "tags": [],
     "title": "Lab.1 - Onboarding",
-    "uri": "/lab-01/index.html"
+    "uri": "/PartnerWorskhop/lab-01/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.1 - Onboarding",
@@ -93,7 +93,7 @@ var relearn_searchindex = [
     "description": "Perform required steps to ingest netflow from devices",
     "tags": [],
     "title": "Task 1.3 - Enabling Flow",
-    "uri": "/lab-01/task_3/index.html"
+    "uri": "/PartnerWorskhop/lab-01/task_3/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.2 - Alerting",
@@ -101,7 +101,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 2.3 - DDoS Alerting",
-    "uri": "/lab-02/task_3/index.html"
+    "uri": "/PartnerWorskhop/lab-02/task_3/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.3 - Synthetics",
@@ -109,7 +109,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 3.3 - Title",
-    "uri": "/lab-03/task_3/index.html"
+    "uri": "/PartnerWorskhop/lab-03/task_3/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.4 - Custom Metrics",
@@ -117,7 +117,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 4.3 - Title",
-    "uri": "/lab-04/task_3/index.html"
+    "uri": "/PartnerWorskhop/lab-04/task_3/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -125,7 +125,7 @@ var relearn_searchindex = [
     "description": "Theory and LAB description\nTask 2.1 - NMS AlertingShort Description\nTask 2.2 - Traffic AlertingShort Description\nTask 2.3 - DDoS AlertingShort Description\nTask 2.4 - TitleShort Description",
     "tags": [],
     "title": "Lab.2 - Alerting ",
-    "uri": "/lab-02/index.html"
+    "uri": "/PartnerWorskhop/lab-02/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.1 - Onboarding",
@@ -133,7 +133,7 @@ var relearn_searchindex = [
     "description": "Verify visibility in the portal",
     "tags": [],
     "title": "Task 1.4 - Portal Verification",
-    "uri": "/lab-01/task_4/index.html"
+    "uri": "/PartnerWorskhop/lab-01/task_4/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.2 - Alerting",
@@ -141,7 +141,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 2.4 - Title",
-    "uri": "/lab-02/task_4/index.html"
+    "uri": "/PartnerWorskhop/lab-02/task_4/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.3 - Synthetics",
@@ -149,7 +149,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 3.4 - Title",
-    "uri": "/lab-03/task_4/index.html"
+    "uri": "/PartnerWorskhop/lab-03/task_4/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab \u003e  Lab.4 - Custom Metrics",
@@ -157,7 +157,7 @@ var relearn_searchindex = [
     "description": "Short Description",
     "tags": [],
     "title": "Task 4.4 - Title",
-    "uri": "/lab-04/task_4/index.html"
+    "uri": "/PartnerWorskhop/lab-04/task_4/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -165,7 +165,7 @@ var relearn_searchindex = [
     "description": "Theory and LAB description\nTask 3.1 - Deploy AgentsShort Description\nTask 3.2 - Agent-to-Agent TestsShort Description\nTask 3.3 - TitleShort Description\nTask 3.4 - TitleShort Description",
     "tags": [],
     "title": "Lab.3 - Synthetics",
-    "uri": "/lab-03/index.html"
+    "uri": "/PartnerWorskhop/lab-03/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -173,7 +173,7 @@ var relearn_searchindex = [
     "description": "Theory and LAB description\nTask 4.1 - TitleShort Description\nTask 4.2 - TitleShort Description\nTask 4.3 - TitleShort Description\nTask 4.4 - TitleShort Description",
     "tags": [],
     "title": "Lab.4 - Custom Metrics",
-    "uri": "/lab-04/index.html"
+    "uri": "/PartnerWorskhop/lab-04/index.html"
   },
   {
     "breadcrumb": "",
@@ -181,7 +181,7 @@ var relearn_searchindex = [
     "description": "A workshop towards getting the HOL Kentik picture",
     "tags": [],
     "title": "Kentik - Hands On Lab",
-    "uri": "/index.html"
+    "uri": "/PartnerWorskhop/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -189,7 +189,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/PartnerWorskhop/categories/index.html"
   },
   {
     "breadcrumb": "Kentik - Hands On Lab",
@@ -197,6 +197,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/PartnerWorskhop/tags/index.html"
   }
 ]

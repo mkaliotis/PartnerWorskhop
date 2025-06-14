@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lab.3 - Synthetics :: Kentik Partner Workshop</title>
-    <link>https://example.org/lab-03/index.html</link>
+    <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/index.html</link>
     <description>Theory and LAB description&#xA;Task 3.1 - Deploy AgentsShort Description&#xA;Task 3.2 - Agent-to-Agent TestsShort Description&#xA;Task 3.3 - TitleShort Description&#xA;Task 3.4 - TitleShort Description</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jun 2025 23:57:31 +0300</lastBuildDate>
-    <atom:link href="https://example.org/lab-03/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mkaliotis.github.io/PartnerWorskhop/lab-03/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Task 3.1 - Deploy Agents</title>
-      <link>https://example.org/lab-03/task_1/index.html</link>
+      <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_1/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:18 +0300</pubDate>
-      <guid>https://example.org/lab-03/task_1/index.html</guid>
+      <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_1/index.html</guid>
       <description>Short Description</description>
     </item>
     <item>
       <title>Task 3.2 - Agent-to-Agent Tests</title>
-      <link>https://example.org/lab-03/task_2/index.html</link>
+      <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_2/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:23 +0300</pubDate>
-      <guid>https://example.org/lab-03/task_2/index.html</guid>
+      <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_2/index.html</guid>
       <description>Short Description</description>
     </item>
     <item>
       <title>Task 3.3 - Title</title>
-      <link>https://example.org/lab-03/task_3/index.html</link>
+      <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_3/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:29 +0300</pubDate>
-      <guid>https://example.org/lab-03/task_3/index.html</guid>
+      <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_3/index.html</guid>
       <description>Short Description</description>
     </item>
     <item>
       <title>Task 3.4 - Title</title>
-      <link>https://example.org/lab-03/task_4/index.html</link>
+      <link>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_4/index.html</link>
       <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
-      <guid>https://example.org/lab-03/task_4/index.html</guid>
+      <guid>https://mkaliotis.github.io/PartnerWorskhop/lab-03/task_4/index.html</guid>
       <description>Short Description</description>
     </item>
   </channel>

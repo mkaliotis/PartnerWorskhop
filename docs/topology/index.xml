@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topology :: Kentik Partner Workshop</title>
-    <link>https://example.org/topology/index.html</link>
+    <link>https://mkaliotis.github.io/PartnerWorskhop/topology/index.html</link>
     <description>This section will familiarize you with the network topology that we are going to be using throughout this workshop.&#xA;While go through the topology, please, access the LAB link and start LAB.1 that will take about 5 minutes to load and set things up for us.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/topology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mkaliotis.github.io/PartnerWorskhop/topology/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
