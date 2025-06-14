@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab.2 - Alerting  :: Kentik Partner Workshop</title>
+    <link>https://example.org/lab-02/index.html</link>
+    <description>Theory and LAB description&#xA;Task 2.1 - NMS AlertingShort Description&#xA;Task 2.2 - Traffic AlertingShort Description&#xA;Task 2.3 - DDoS AlertingShort Description&#xA;Task 2.4 - TitleShort Description</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2025 23:57:31 +0300</lastBuildDate>
+    <atom:link href="https://example.org/lab-02/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Task 2.1 - NMS Alerting</title>
+      <link>https://example.org/lab-02/task_1/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:18 +0300</pubDate>
+      <guid>https://example.org/lab-02/task_1/index.html</guid>
+      <description>Short Description</description>
+    </item>
+    <item>
+      <title>Task 2.2 - Traffic Alerting</title>
+      <link>https://example.org/lab-02/task_2/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:23 +0300</pubDate>
+      <guid>https://example.org/lab-02/task_2/index.html</guid>
+      <description>Short Description</description>
+    </item>
+    <item>
+      <title>Task 2.3 - DDoS Alerting</title>
+      <link>https://example.org/lab-02/task_3/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:29 +0300</pubDate>
+      <guid>https://example.org/lab-02/task_3/index.html</guid>
+      <description>Short Description</description>
+    </item>
+    <item>
+      <title>Task 2.4 - Title</title>
+      <link>https://example.org/lab-02/task_4/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
+      <guid>https://example.org/lab-02/task_4/index.html</guid>
+      <description>Short Description</description>
+    </item>
+  </channel>
+</rss>

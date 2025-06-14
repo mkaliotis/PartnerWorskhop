@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lab.1 - Onboarding :: Kentik Partner Workshop</title>
+    <link>https://example.org/lab-01/index.html</link>
+    <description>Theory and LAB description&#xA;Task 1.1 - Device DiscoveryDeploy Universal Agent and Onboard Devices via Kentik NMS&#xA;Task 1.2 - Portal ConfigurationConfigure relevant Kentik Resources to support our use case&#xA;Task 1.3 - Enabling FlowPerform required steps to ingest netflow from devices&#xA;Task 1.4 - Portal VerificationVerify visibility in the portal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Jun 2025 23:57:31 +0300</lastBuildDate>
+    <atom:link href="https://example.org/lab-01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Task 1.1 - Device Discovery</title>
+      <link>https://example.org/lab-01/task_1/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:18 +0300</pubDate>
+      <guid>https://example.org/lab-01/task_1/index.html</guid>
+      <description>Deploy Universal Agent and Onboard Devices via Kentik NMS</description>
+    </item>
+    <item>
+      <title>Task 1.2 - Portal Configuration</title>
+      <link>https://example.org/lab-01/task_2/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:23 +0300</pubDate>
+      <guid>https://example.org/lab-01/task_2/index.html</guid>
+      <description>Configure relevant Kentik Resources to support our use case</description>
+    </item>
+    <item>
+      <title>Task 1.3 - Enabling Flow</title>
+      <link>https://example.org/lab-01/task_3/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:29 +0300</pubDate>
+      <guid>https://example.org/lab-01/task_3/index.html</guid>
+      <description>Perform required steps to ingest netflow from devices</description>
+    </item>
+    <item>
+      <title>Task 1.4 - Portal Verification</title>
+      <link>https://example.org/lab-01/task_4/index.html</link>
+      <pubDate>Wed, 04 Jun 2025 23:57:31 +0300</pubDate>
+      <guid>https://example.org/lab-01/task_4/index.html</guid>
+      <description>Verify visibility in the portal</description>
+    </item>
+  </channel>
+</rss>

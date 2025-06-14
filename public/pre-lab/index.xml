@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pre-Workshop Tasks :: Kentik Partner Workshop</title>
+    <link>https://example.org/pre-lab/index.html</link>
+    <description>Prior to this workshop, you should have received an email with instructions on how to set up a free trial Kentik account. This is a prerequisite step in order to be able to run the Labs during the workshop.&#xA;If you already have registered for an account you can follow the tasks for validation.&#xA;Task 0.1 - Register for a Free Trial Account Navigate to kentik.com/get-started and fill in your details in the form to create your free trial Kentik account.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://example.org/pre-lab/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
